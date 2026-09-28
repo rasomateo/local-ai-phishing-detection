@@ -1,0 +1,18 @@
+{
+  "architecture_name": "step25c_text_led_email_classifier_with_auxiliary_url_evidence",
+  "artifact_version": 2,
+  "decision_rule": "phishing iff text_probability_phishing >= 0.5; otherwise legitimate",
+  "decision_threshold": 0.5,
+  "email_decision_source": "frozen_step19_text_model_plus_step20_inference_calibrator_only",
+  "fusion_applied": false,
+  "schema_version": 2,
+  "step": "25C",
+  "url_evidence": {
+    "affects_email_classification": false,
+    "all_valid_urls_scored": true,
+    "interpretation_warning": "A high URL model score is auxiliary model evidence only; it does not prove that an individual URL is malicious, and a low score does not prove that it is harmless.",
+    "model_scope": "Frozen Step-23 model trained and calibrated on the Phishload URL dataset.",
+    "model_source": "frozen_step23_url_bundle",
+    "validation_scope": "Not independently validated on URLs extracted from emails."
+  }
+}

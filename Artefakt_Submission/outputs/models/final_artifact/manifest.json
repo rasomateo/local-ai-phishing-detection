@@ -1,0 +1,60 @@
+{
+  "architecture_run_id": "step25c-4e0fd575aaa50c7b867f24184e5fc8fd",
+  "artifact_type": "step25c_final_text_led_architecture",
+  "artifact_version": 2,
+  "contract_version": "artifact-provenance-v1:final-artifact-v2",
+  "flags": {
+    "calibrator_fitted": false,
+    "external_data_used": false,
+    "fusion_applied": false,
+    "holdout_evaluated": false,
+    "holdout_opened": false,
+    "model_fitted": false,
+    "rq2_or_rq3_started": false,
+    "step26_started": false,
+    "threshold_optimized": false
+  },
+  "implementation_sha256": {
+    "src/explain.py": "33fdec0f05b1e36a32c091fd81740831003fc2623fa252f8143e9283281fde2b",
+    "src/final_artifact.py": "d6c493dbfdc9137e31dc770414fe42a7d3aa1aca3c476badce6f032b002fb00e",
+    "src/unified_artifact.py": "e8385b8f1fe3e0b7025a6d76bf6363ad71cadac46cd16371ed98b7591fb88a69",
+    "src/url_model_bundle.py": "8557f788a01177cc6af026af5efab9645308150fedc92fd9a4772a89912651a0"
+  },
+  "output_sha256": {
+    "architecture.json": "485e00c532280e1f7837998e018bda9f626eac24449724c6e289f6dd2256c393",
+    "report.json": "4b631d09bbdeb12ec419abc6c770485ec0bbde8107aa6df3a47b273c91bf4f47"
+  },
+  "predecessor_semantic_sha256": {
+    "text_calibration": "36962503bfdb19651213ebfbb9e3dd5650bf3702cd48f377c71b365d82150bee",
+    "url_model": "6612a7222efd3d40ffd434b41a50318041bc47e4b8e6f85040f60b1cf365ecff"
+  },
+  "protected_inputs": {
+    "outputs/models/text/calibration/manifest.json": "3a40c529baf83bf57b8d0c25a532a29d0f528c275aaea3bcacf30c13b207f34d",
+    "outputs/models/text/calibration/report.json": "7bb891d60a6dd9581f0d114091d17b8edf6a1a6bb6c88c45afa857fed5cf8b5e",
+    "outputs/models/text/calibration/text_calibrator.joblib": "6c8dae3d6b3d9192dda19474ede400daa84f054c407bbf781b47c61e2e553ee2",
+    "outputs/models/text/classifier/manifest.json": "4fde81710f6b31b980c86738f8ff24063720d822af204df1a78eebf13babd48a",
+    "outputs/models/text/classifier/report.json": "d0eff828ae53b2f176414493baa1027e01dbfab9fd12a91d0ecd39403cd89e43",
+    "outputs/models/text/classifier/text_model.joblib": "1cb802457451c69f6a02921c97353e0889bc3d4bbdb0b2f39aae7f5d29e204b9",
+    "outputs/models/text/classifier/text_vectorizer.joblib": "05265f118415bb061e282b7830090749299dafbb090e2bd58fa873eb1f9bca53",
+    "outputs/models/url/manifest.json": "7f30a15e865b94d0d2e91018035446ab6ec87b0e7c2a578ffb4c56157dca7ebd",
+    "outputs/models/url/report.json": "27f06d7e86d26c6eb9a174b372d93959516152181990dae7932c0bb7644cae8b",
+    "outputs/models/url/url_calibrator.joblib": "110e48c05ec2c36ab7be35723c4916ca618062610c7f1d9c01ae84eac3040021",
+    "outputs/models/url/url_model.joblib": "f11e2a715ba993a1ac99c867964f79b289a5a982d92ae3cd8601585032c16be7",
+    "outputs/models/url/url_vectorizer.joblib": "182bfb0af30f56cd68657dbcdbd03571810882aeb75bcff5aad25af782478af3"
+  },
+  "selection_provenance": {
+    "text": {
+      "manifest_path": "outputs/benchmarks/text/selection_manifest.json",
+      "manifest_sha256": "3ebec38abc9e697dd0e07f123ad6aa8e8a19aa20f29a9894576c5ea5831e3700",
+      "semantic_sha256": "feedafbf5477bcb34485c74244fe89a9e70e8460b76dda40b452b34bb0e02e66"
+    },
+    "url": {
+      "manifest_path": "outputs/benchmarks/url/selection_manifest.json",
+      "manifest_sha256": "215f5239f2871fbfdbfb3519cdd0abe3d07af619319631081f7a52f0ee4aa582",
+      "semantic_sha256": "142c17e9bc81db7be8fb8410b53fe9b844dd35b2d91e89e4bb44edd788f64744"
+    }
+  },
+  "self_hash_policy": "No JSON contains its own hash; checksums.sha256 excludes itself",
+  "semantic_sha256": "4e0fd575aaa50c7b867f24184e5fc8fd05a762566057ae814a4690007d0f3100",
+  "starting_git_head": "20a4147934923ca8b94ff081b52ffb223be2c5fe"
+}
